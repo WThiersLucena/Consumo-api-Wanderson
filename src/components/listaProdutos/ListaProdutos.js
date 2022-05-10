@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ListaProdutos(props) {
     const produtos = props.produtos || []
+
     return (
         <>
             <h1>Lista de Produtos</h1>
