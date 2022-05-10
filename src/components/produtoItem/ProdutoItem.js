@@ -7,6 +7,7 @@ export default function ProdutoItem(props) {
             <h1>Produto</h1>
             {
                 <div>
+                    
                     <h2>{produto.id} {produto.nome} R${produto.preco}</h2>
                     <Link to="/">Voltar para home</Link>
                 </div>
